@@ -65,8 +65,6 @@ class ProtVec(word2vec.Word2Vec):
         model = word2vec.Word2Vec.__init__(self, self.corpus, size=self.size, sg=self.sg, window=self.window, min_count=self.vocab, workers=self.workers)
         model.wv.save_word2vec_format(ngram_model_fname)
         model.save('test-class.mdl') # This will be removed later
-        # This line could have been causing the issue [Still testing]
-        #model = word2vec.Word2Vec([line.rstrip().split() for line in open(self.out)], min_count = 1, size=self.size, sg=self.sg, window=self.window,workers=self.workers)
         print('-- Saving Model Weights to: %s ' % (ngram_model_fname))
 
     def to_vecs(self,seq,ngram_vectors):

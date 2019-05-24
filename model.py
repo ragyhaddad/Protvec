@@ -58,7 +58,7 @@ class ProtVec(word2vec.Word2Vec):
         # Set Up Corpus 
         self.corpus = word2vec.Text8Corpus(out) 
         print("-- Corpus Setup Successful... ")
-    # This is Copied From Docs - This just initializes the class - You can do it manually  
+    # This is Copied From Docs - This just initializes the class then trains/saves - You can do it manually  
     def word2vec_init(self, ngram_model_fname):
         print('-- Initializing Word2Vec Class..')
         print('-- Training Model...')

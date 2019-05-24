@@ -10,4 +10,4 @@ Purpose: Gaining knowledge on different representational learning methods to set
 Proteomics problems such as structure and classification
 
 ### Kmer Vector Representation Reduction
-![alt text](https://github.com/deepbiome/ProtVec/blob/master/protvec-regular.png)
+![alt text](https://github.com/ragyhaddad/ProtVec/blob/master/protvec-regular.png)

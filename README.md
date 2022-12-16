@@ -1,5 +1,7 @@
 # ProtVec
 
+I wanted to learn protein embeddings for a model I was building at DeepBiome [Former position]
+
 Full implementation of the protvec paper 
 
 https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0141287&type=printable 
